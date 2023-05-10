@@ -40,7 +40,7 @@
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   // "forwardPorts": [],
 
-  "updateContentCommand": "nci && pnpm run playwright install --with-deps",
+//   "updateContentCommand": "nci",
 
   // Use 'postCreateCommand' to run commands after the container is created.
   "postCreateCommand": "ni",
