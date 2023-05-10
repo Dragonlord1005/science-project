@@ -11,7 +11,7 @@
   //     "VARIANT": "16-bullseye"
   //   }
   // },
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:16",
   // Configure tool-specific properties.
   "customizations": {
     // Configure properties specific to VS Code.
@@ -52,10 +52,6 @@
     	"package": "@antfu/ni"
   	},
 	"ghcr.io/dhoeric/features/act:1": {},
-	"ghcr.io/devcontainers-contrib/features/neofetch:1": {},
-	"ghcr.io/devcontainers/features/node:1": {
-		"version": "18"
-	}
   },
   "portsAttributes": {
     "3000": {
