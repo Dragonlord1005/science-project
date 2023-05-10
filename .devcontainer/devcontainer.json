@@ -11,7 +11,7 @@
   //     "VARIANT": "16-bullseye"
   //   }
   // },
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:16",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
   // Configure tool-specific properties.
   "customizations": {
     // Configure properties specific to VS Code.
@@ -25,15 +25,12 @@
 		// "GitHub.copilot",
 		"WakaTime.vscode-wakatime",
 		"astro-build.astro-vscode",
-		"antfu.unocss",
 		"Gruntfuggly.todo-tree",
 		"GitHub.copilot-labs",
-		"unifiedjs.vscode-mdx",
 		"svelte.svelte-vscode",
 		"wix.vscode-import-cost",
 		"esbenp.prettier-vscode",
 		"albert.TabOut",
-		"ms-playwright.playwright",
 		"seatonjiang.gitmoji-vscode",
 		"GitHub.copilot-nightly"
 	]
@@ -56,6 +53,9 @@
   	},
 	"ghcr.io/dhoeric/features/act:1": {},
 	"ghcr.io/devcontainers-contrib/features/neofetch:1": {},
+	"ghcr.io/devcontainers/features/node:1": {
+		"version": "18"
+	}
   },
   "portsAttributes": {
     "3000": {
