@@ -7,5 +7,9 @@ export default defineConfig({
   experimental: {
     assets: true
   },
-  integrations: [tailwind()]
+  integrations: [tailwind({
+    config: {
+      applyBaseStyles: false,
+    }
+  })]
 });
