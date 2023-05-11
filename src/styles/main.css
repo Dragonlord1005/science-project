@@ -24,3 +24,8 @@ h1 {
     gap: 1rem;
     padding: 0;
 }
+
+p {
+    /* font-family: 'InterVariable', 'Inter', sans-serif;| */
+    @apply font-sans;
+}
