@@ -22,7 +22,6 @@
 		"antfu.file-nesting",
 		"EditorConfig.EditorConfig",
 		"quicktype.quicktype",
-		// "GitHub.copilot",
 		"WakaTime.vscode-wakatime",
 		"astro-build.astro-vscode",
 		"Gruntfuggly.todo-tree",
@@ -32,7 +31,8 @@
 		"esbenp.prettier-vscode",
 		"albert.TabOut",
 		"seatonjiang.gitmoji-vscode",
-		"GitHub.copilot-nightly"
+		"GitHub.copilot-nightly",
+		"streetsidesoftware.code-spell-checker"
 	]
     }
   },
