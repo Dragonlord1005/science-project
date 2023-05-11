@@ -1,7 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro'
 
-import '../styles/main.css';
+import '@styles/main.css';
 
 import { Image } from 'astro:assets';
 import factory1 from '@assets/factory-1.jpg';
@@ -12,9 +12,9 @@ import nuclearFusionReactor from "@assets/nuclear-fusion-reactor-1.jpg"
 import '@fontsource/inter/variable.css'
 ---
 
-<Layout title="Home">
+<Layout title="PSA">
     <main>
-        <h1 class="text-center text-gradient">PSA</h1>
+        <h1 class="text-center"><span class="text-gradient">PSA</span> about Fossil Fuels</h1>
         <p>There is a problem with the world, we are releasing too much carbon into the air.</p>
         <Image src={factory1} alt="Factory emitting fumes" loading="eager" />
         <p>This is a factory releasing carbon into the atmosphere because it is burning fossil fuels.</p>

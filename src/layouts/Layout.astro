@@ -5,7 +5,7 @@ export interface Props {
 
 const { title } = Astro.props;
 
-import '../styles/base.css';
+import '@styles/base.css';
 ---
 
 <!DOCTYPE html>
@@ -15,6 +15,7 @@ import '../styles/base.css';
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
+		<meta name="description" content="A PSA for the reduction of fossil fuel emissions." />
 		<title>{title}</title>
 	</head>
 	<body>
